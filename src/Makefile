@@ -390,7 +390,7 @@ CClink = $(CC)
 
 # TCL
 # Uncomment this when you want to include the Tcl interface.
-#CONF_OPT_TCL = --enable-tclinterp
+CONF_OPT_TCL = --enable-tclinterp
 #CONF_OPT_TCL = --enable-tclinterp --with-tclsh=tclsh8.4
 
 # RUBY
@@ -407,7 +407,7 @@ CClink = $(CC)
 
 # CSCOPE
 # Uncomment this when you want to include the Cscope interface.
-#CONF_OPT_CSCOPE = --enable-cscope
+CONF_OPT_CSCOPE = --enable-cscope
 
 # WORKSHOP - Sun Visual Workshop interface.  Only works with Motif!
 #CONF_OPT_WORKSHOP = --enable-workshop
@@ -428,7 +428,7 @@ CONF_OPT_GDB = --enable-gdb
 # It's automatically enabled with big features or IME support.
 # Note: Compile on a machine where setlocale() actually works, otherwise the
 # configure tests may fail.
-#CONF_OPT_MULTIBYTE = --enable-multibyte
+CONF_OPT_MULTIBYTE = --enable-multibyte
 
 # NLS - National Language Support
 # Uncomment this when you do not want to support translated messages, even
@@ -440,7 +440,7 @@ CONF_OPT_GDB = --enable-gdb
 # When omitted it's automatically enabled for the X-windows GUI.
 # HANGUL - Input Hangul (Korean) language using internal routines.
 # Uncomment one of these when you want to input a multibyte language.
-#CONF_OPT_INPUT = --enable-xim
+CONF_OPT_INPUT = --enable-xim
 #CONF_OPT_INPUT = --disable-xim
 #CONF_OPT_INPUT = --enable-hangulinput
 
